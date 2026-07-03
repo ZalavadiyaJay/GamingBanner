@@ -8,8 +8,8 @@ export default function Header() {
 
   const navLinks = [
     { label: "Home", href: "/" },
-    { label: "Templates", href: "/youtube-banners" },
-    { label: "Gallery", href: "/twitch-banners" },
+    { label: "Templates", href: "/templates" },
+    // { label: "Gallery", href: "/gallery" },
     { label: "Blog", href: "/blog" },
     { label: "About", href: "/about" },
   ];
