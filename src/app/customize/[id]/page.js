@@ -683,18 +683,7 @@ export default function CustomizeEditor({ params }) {
                   </>
                 )}
 
-                {/* Simulated Discord overlaps */}
-                {(id.includes("discord") || id.includes("blurple") || id.includes("server") || id.includes("guild") || id.includes("portal") || id.includes("rp") || id.includes("music") || id.includes("clan")) && (
-                  <div className="absolute bottom-[6%] left-[6%] w-[18%] aspect-square rounded-[18%] bg-surface-container-high border border-outline-variant/60 flex items-center justify-center text-[2.5cqw] font-bold text-outline select-none font-sans z-10 shadow-lg">
-                    DS
-                  </div>
-                )}
-                {/* Simulated Twitter overlaps */}
-                {(id.includes("esports-pro") || id.includes("schedule") || id.includes("clan-tag") || id.includes("glow")) && (
-                  <div className="absolute bottom-[6%] left-[6%] w-[20%] aspect-square rounded-full bg-surface-container-high border-[0.3cqw] border-background flex items-center justify-center text-[3cqw] font-bold text-outline select-none font-sans z-10 shadow-lg">
-                    @
-                  </div>
-                )}
+
 
                 {currentTemplate.decor}
 

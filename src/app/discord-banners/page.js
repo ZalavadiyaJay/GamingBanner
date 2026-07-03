@@ -59,10 +59,6 @@ export default function DiscordBanners() {
           {templates.map((template, idx) => (
             <div key={idx} className="bento-card overflow-hidden rounded-xl shadow-lg border-outline-variant/50">
               <div className="aspect-video relative flex items-center justify-end font-gamertag uppercase p-lg overflow-hidden pr-[8%]" style={{ ...template.style, containerType: "inline-size" }}>
-                {/* Simulated Discord Server Icon */}
-                <div className="absolute bottom-[6%] left-[6%] w-[18%] aspect-square rounded-[18%] bg-surface-container-high border border-outline-variant/50 flex items-center justify-center text-[2.5cqw] font-bold text-outline font-sans select-none shadow-lg">
-                  DS
-                </div>
                 <div className="text-right flex flex-col items-end">
                   <span className="font-black tracking-wide leading-none" style={{ ...template.textStyle, fontSize: "clamp(12px, 6.5cqw, 22px)" }}>YOUR COMMUNITY</span>
                   <span className="tracking-widest text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded mt-xs font-sans normal-case font-bold leading-none" style={{ fontSize: "clamp(5px, 2.2cqw, 9px)" }}>
