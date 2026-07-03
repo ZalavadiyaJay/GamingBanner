@@ -474,7 +474,7 @@ export default async function BlogPost({ params }) {
           <h3 className="font-bold text-on-background text-lg">Ready to Level Up Your Branding?</h3>
           <p className="text-xs text-outline">Create a custom channel art using our responsive templates catalog.</p>
           <Link
-            href="/templates"
+            href="/youtube-banners"
             className="bg-primary-container hover:bg-primary-container/90 text-on-primary-container font-extrabold text-xs px-lg py-2.5 rounded transition-all block w-full max-w-[240px] mt-2 shadow shadow-primary-container/20"
           >
             Browse Free Templates

@@ -7,7 +7,6 @@ export default function sitemap() {
     "/twitch-banners",
     "/discord-banners",
     "/twitter-headers",
-    "/templates",
     "/blog",
     "/guides",
     "/about",

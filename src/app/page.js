@@ -172,7 +172,7 @@ export default function Home() {
                 className="flex-1 bg-transparent text-zinc-950 font-bold text-lg px-md py-sm outline-none border-none min-w-0"
               />
               <Link
-                href="/templates"
+                href="/youtube-banners"
                 className="bg-primary-container hover:bg-primary-container/90 text-on-primary-container font-extrabold text-sm tracking-wider uppercase px-xl py-sm h-full flex items-center justify-center transition-all hover:scale-[1.01]"
               >
                 Customize
