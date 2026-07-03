@@ -359,19 +359,19 @@ export default function CustomizeEditor({ params }) {
       name: "Solar Phoenix",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Impact, sans-serif", color: "#fed7aa", textShadow: "2px 2px 0px #431407, 0 0 12px #f97316", letterSpacing: "0.06em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), radial-gradient(circle at 10% 50%, #f97316 0%, transparent 60%), linear-gradient(135deg, #2a0800 0%, #030712 100%)" }
+      style: { background: "radial-gradient(circle at 10% 50%, rgba(249, 115, 22, 0.3) 0%, transparent 60%), radial-gradient(circle at 90% 50%, rgba(244, 63, 94, 0.15) 0%, transparent 50%), linear-gradient(135deg, #180500 0%, #030712 100%)" }
     },
     "discord-cosmic-nebula": {
       name: "Nebula Violet Space",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-sans)", fontWeight: "900", color: "#e9d5ff", textShadow: "0 0 15px #c084fc, 0 0 30px #7e22ce, 3px 3px 0px #000", letterSpacing: "0.08em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 80% 80%, #a855f7 0%, transparent 60%), linear-gradient(135deg, #1e1b4b 0%, #090514 100%)" }
+      style: { background: "radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.25) 0%, transparent 60%), radial-gradient(circle at 20% 20%, rgba(219, 39, 119, 0.2) 0%, transparent 50%), linear-gradient(135deg, #0f0728 0%, #030712 100%)" }
     },
     "discord-phantom-spirit": {
       name: "Phantom Spectral",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", color: "#cffafe", textShadow: "0 0 12px #06b6d4, 0 0 24px #0891b2, 2px 2px 0px #000000", letterSpacing: "0.2em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), radial-gradient(circle at 50% 100%, #06b6d4 0%, transparent 50%), linear-gradient(135deg, #061014 0%, #022c34 100%)" }
+      style: { background: "radial-gradient(circle at 50% 100%, rgba(6, 182, 212, 0.25) 0%, transparent 70%), radial-gradient(circle at 50% 0%, rgba(13, 148, 136, 0.15) 0%, transparent 60%), linear-gradient(135deg, #040d12 0%, #01161b 100%)" }
     },
 
     // Twitter templates
