@@ -263,8 +263,28 @@ export default async function GuideArticle({ params }) {
     body: <p>We could not find the guide article you are looking for.</p>,
   };
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": currentGuide.title,
+    "author": {
+      "@type": "Organization",
+      "name": "GamingBanner Design Team",
+      "url": "https://gamingbanner.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GAMINGBANNER"
+    },
+    "description": currentGuide.title
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
 
       <main className="flex-1 min-h-screen py-24 px-xl max-w-[800px] mx-auto flex flex-col gap-lg">

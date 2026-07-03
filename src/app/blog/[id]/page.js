@@ -115,8 +115,29 @@ export default async function BlogPost({ params }) {
     body: <p>We could not find the blog article you are looking for.</p>,
   };
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": currentPost.title,
+    "datePublished": "2025-06-28T08:00:00.000Z",
+    "author": {
+      "@type": "Organization",
+      "name": "GamingBanner Design Team",
+      "url": "https://gamingbanner.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "GAMINGBANNER"
+    },
+    "description": currentPost.title
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
 
       <main className="flex-1 min-h-screen py-24 px-xl max-w-[800px] mx-auto flex flex-col gap-lg">
