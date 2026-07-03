@@ -257,103 +257,103 @@ export default function CustomizeEditor({ params }) {
       name: "Cyber Red Mech",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#fca5a5", textShadow: "0 0 10px #ef4444, 0 0 20px #991b1b, 2px 2px 0px #000000", letterSpacing: "0.1em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), radial-gradient(circle at 100% 50%, #dc2626 0%, transparent 60%), linear-gradient(135deg, #070710 0%, #1e0000 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/discord_cyber_red.jpg') center/cover no-repeat" }
     },
     "discord-gold-tactical": {
       name: "Gold Tactical Grid",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Impact, sans-serif", color: "#fef08a", textShadow: "3px 3px 0px #000, -1px -1px 0px #78350f, 0 0 15px #fbbf24", letterSpacing: "0.08em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 0% 50%, #fbbf24 0%, transparent 55%), linear-gradient(135deg, #09090b 0%, #292524 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_gold_tactical.jpg') center/cover no-repeat" }
     },
     "discord-liquid-ice": {
       name: "Liquid Ice",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", color: "#ffffff", textShadow: "0 0 8px #0ea5e9, 0 0 16px #0369a1, 3px 3px 0px #0f172a", letterSpacing: "0.15em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), radial-gradient(circle at 100% 50%, #38bdf8 0%, transparent 65%), linear-gradient(135deg, #0f172a 0%, #082f49 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/discord_liquid_ice.jpg') center/cover no-repeat" }
     },
     "discord-synth-clouds": {
       name: "Synth Horizon",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-sans)", fontWeight: "900", color: "#fbcfe8", textShadow: "0 0 12px #ec4899, 0 0 24px #4a044e, 3px 3px 0px #000", letterSpacing: "0.1em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), radial-gradient(circle at 50% 120%, #db2777 0%, transparent 60%), linear-gradient(135deg, #1e1b4b 0%, #030712 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/discord_synth_clouds.jpg') center/cover no-repeat" }
     },
     "discord-dark-anime": {
       name: "Dark Crimson Mist",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#ef4444", textShadow: "0 0 15px #ef4444, 3px 3px 0px #000000", letterSpacing: "0.12em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), radial-gradient(circle at 90% 10%, #ef4444 0%, transparent 55%), linear-gradient(135deg, #020617 0%, #110000 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/discord_dark_anime.jpg') center/cover no-repeat" }
     },
     "discord-purple-shorts": {
       name: "Amethyst Smoke",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Impact, sans-serif", color: "#ffffff", textShadow: "0 0 10px #c084fc, 0 0 20px #7e22ce, 2px 2px 0px #000000", letterSpacing: "0.05em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 10% 90%, #a855f7 0%, transparent 60%), linear-gradient(135deg, #090514 0%, #1e1b4b 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_purple_shorts.jpg') center/cover no-repeat" }
     },
     "discord-phase-freak": {
       name: "Phase Pink Lightning",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Georgia, serif", color: "#fca5a5", textShadow: "0 0 12px #f43f5e, 0 0 24px #9f1239, 3px 3px 0px #000", letterSpacing: "0.2em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 100% 50%, #f43f5e 0%, transparent 70%), linear-gradient(135deg, #0f172a 0%, #311005 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_phase_freak.jpg') center/cover no-repeat" }
     },
     "discord-frantox-blue": {
       name: "Frantox Glacial Blue",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#e0f7fa", textShadow: "0 0 8px #06b6d4, 0 0 16px #0891b2, 3px 3px 0px #000", letterSpacing: "0.15em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 10% 50%, #06b6d4 0%, transparent 60%), linear-gradient(135deg, #020617 0%, #083344 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_frantox_blue.jpg') center/cover no-repeat" }
     },
     "discord-zephyr-red": {
       name: "Zephyr Red Speed",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Impact, sans-serif", color: "#fca5a5", textShadow: "2px 2px 0px #000, -2px -2px 0px #7f1d1d, 0 0 10px #ef4444", letterSpacing: "0.06em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), radial-gradient(circle at 90% 90%, #ef4444 0%, transparent 55%), linear-gradient(135deg, #111827 0%, #030712 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/discord_zephyr_red.jpg') center/cover no-repeat" }
     },
     "discord-thumb-green": {
       name: "Toxic Emerald Glow",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-data-mono)", color: "#a7f3d0", textShadow: "2px 2px 0px #064e3b, 4px 4px 0px #022c22, 0 0 12px #10b981", letterSpacing: "0.1em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 20% 80%, #10b981 0%, transparent 60%), linear-gradient(135deg, #022c22 0%, #020617 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_thumb_green.jpg') center/cover no-repeat" }
     },
     "discord-cyberpunk-yellow": {
       name: "Cyber Matrix Yellow",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Impact, sans-serif", color: "#fef08a", textShadow: "3px 3px 0px #000000, 0 0 12px #eab308", letterSpacing: "0.1em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), radial-gradient(circle at 100% 50%, #facc15 0%, transparent 50%), linear-gradient(135deg, #09090b 0%, #1e1b4b 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/discord_cyberpunk_yellow.jpg') center/cover no-repeat" }
     },
     "discord-toxic-glow": {
       name: "Acid Biohazard",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#34d399", textShadow: "0 0 10px #10b981, 0 0 20px #047857", letterSpacing: "0.12em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 0% 100%, #10b981 0%, transparent 65%), linear-gradient(135deg, #0f172a 0%, #022c22 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_toxic_glow.jpg') center/cover no-repeat" }
     },
     "discord-angelic-grace": {
       name: "Angelic Light",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Georgia, serif", color: "#fef08a", textShadow: "0 2px 4px #78350f, 0 0 15px rgba(251, 191, 36, 0.5)", letterSpacing: "0.25em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), radial-gradient(circle at 80% 50%, #fbbf24 0%, transparent 55%), linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_angelic_grace.jpg') center/cover no-repeat" }
     },
     "discord-abyssal-void": {
       name: "Abyssal Singularity",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-sans)", fontWeight: "900", color: "#93c5fd", textShadow: "0 0 12px #3b82f6, 3px 3px 0px #1e3a8a", letterSpacing: "0.08em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), radial-gradient(circle at 50% 50%, #3b82f6 0%, transparent 40%), linear-gradient(135deg, #020617 0%, #090d16 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_abyssal_void.jpg') center/cover no-repeat" }
     },
     "discord-crimson-slayer": {
       name: "Crimson Ninja",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "Impact, sans-serif", color: "#fca5a5", textShadow: "3px 3px 0px #000000, 0 0 10px #dc2626", letterSpacing: "0.08em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), radial-gradient(circle at 100% 100%, #dc2626 0%, transparent 60%), linear-gradient(135deg, #0c0a09 0%, #1c1917 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_crimson_slayer.jpg') center/cover no-repeat" }
     },
     "discord-glitch-system": {
       name: "Green System Glitch",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-data-mono)", color: "#86efac", textShadow: "2px 2px 0px #14532d, 4px 4px 0px #052e16", letterSpacing: "0.12em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 0% 50%, #22c55e 0%, transparent 55%), linear-gradient(135deg, #09090b 0%, #052e16 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_glitch_system.jpg') center/cover no-repeat" }
     },
     "discord-frost-bite": {
       name: "Frost Bite Dragon",
       sub: "Discord Server Active",
       textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#ffffff", textShadow: "0 0 10px #06b6d4, 0 0 20px #0891b2", letterSpacing: "0.15em" },
-      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), radial-gradient(circle at 90% 10%, #67e8f9 0%, transparent 55%), linear-gradient(135deg, #083344 0%, #0f172a 100%)" }
+      style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_frost_bite.jpg') center/cover no-repeat" }
     },
     "discord-solar-flare": {
       name: "Solar Phoenix",
