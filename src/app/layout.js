@@ -23,7 +23,7 @@ export const metadata = {
     template: "%s | GAMINGBANNER"
   },
   description: "Create premium, custom gaming banners for YouTube, Twitch, Discord, and Twitter instantly.",
-  keywords: ["gaming banner maker", "youtube banner template", "twitch offline banner", "discord server banner", "twitter header gaming", "free banner templates"],
+  keywords: ["gaming banner maker", "youtube banner template", "twitch offline banner maker", "discord server banner maker", "twitter header gaming", "free banner templates", "youtube banner size safe zone", "twitch banner size", "discord profile banner size", "cool gaming banners", "gaming youtube channel art", "valorant banner maker", "minecraft banner maker"],
   openGraph: {
     title: "GAMINGBANNER | Level Up Your Identity",
     description: "Create premium, custom gaming banners for YouTube, Twitch, Discord, and Twitter instantly.",

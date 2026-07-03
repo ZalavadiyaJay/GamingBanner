@@ -52,10 +52,10 @@ export default function TwitterHeaders() {
         {/* Page Hero */}
         <section className="text-center py-lg border-b border-outline-variant/60 flex flex-col items-center gap-sm">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-on-background">
-            Free Twitter/X Gaming Header Templates
+            Free Twitter/X Gaming Headers & Cool Banners
           </h1>
           <p className="max-w-[620px] text-sm text-outline leading-relaxed">
-            Create professional Twitter profile headers at 1500 x 500 pixels. Designed to avoid overlap with your profile picture and bio.
+            Generate cool gaming banners and headers for your Twitter/X profile. Pre-configured to fit the standard Twitter header size (1500 x 500 pixels) with avatar safe zones.
           </p>
 
 

@@ -68,10 +68,10 @@ export default function DiscordBanners() {
         {/* Page Hero */}
         <section className="text-center py-lg border-b border-outline-variant/60 flex flex-col items-center gap-sm">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-on-background">
-            Free Discord Server Banner Templates
+            Free Discord Server Banner Maker & Profile Cover Art
           </h1>
           <p className="max-w-[620px] text-sm text-outline leading-relaxed">
-            Design eye-catching Discord server banners and profile banners. Server banners at 960 x 540, profile banners at 680 x 240.
+            Design gorgeous assets matching the standard Discord banner size (960 x 540 pixels) for server icons, or configure files matching the Discord profile banner size (680 x 240 pixels) easily.
           </p>
 
 

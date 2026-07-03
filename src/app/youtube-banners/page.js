@@ -68,10 +68,10 @@ export default function YouTubeBanners() {
         {/* Page Hero */}
         <section className="text-center py-lg border-b border-outline-variant/60 flex flex-col items-center gap-sm">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-on-background">
-            Free YouTube Gaming Banner Templates
+            Free YouTube Gaming Banner Templates & Channel Art
           </h1>
           <p className="max-w-[620px] text-sm text-outline leading-relaxed">
-            Download professionally designed YouTube channel art sized perfectly at 2560 x 1440 pixels. Safe-zone optimized for desktop, tablet, and mobile displays.
+            Download professional gaming youtube channel art templates. Our customizer is fully calibrated to fit the official youtube banner size safe zone (2560 x 1440 pixels) perfectly on mobile, tablet, and desktop views.
           </p>
 
 
