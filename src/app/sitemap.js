@@ -21,6 +21,8 @@ export default function sitemap() {
     "/blog/best-youtube-banner-ideas-2025",
     "/blog/how-to-grow-your-gaming-channel",
     "/blog/free-vs-paid-banner-makers",
+    "/blog/cool-gaming-names-generator-tips",
+    "/blog/best-obs-settings-for-streaming",
   ];
 
   const guides = [

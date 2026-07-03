@@ -33,6 +33,22 @@ export default function BlogHub() {
       excerpt: "An honest comparison analyzing online automated template engines versus professional Photoshop vectors. Find what fits your stream budget.",
       category: "Branding",
     },
+    {
+      slug: "cool-gaming-names-generator-tips",
+      title: "Cool Gaming Names: Best Gamertag Ideas & Generator Tips",
+      date: "June 30, 2025",
+      readTime: "6 min read",
+      excerpt: "Stuck on finding a cool gamer name? Here is our curated list of 200+ gamertag ideas grouped by genre, plus expert tips to create your own.",
+      category: "Branding",
+    },
+    {
+      slug: "best-obs-settings-for-streaming",
+      title: "Best OBS Settings for Streaming & Recording (2025 Guide)",
+      date: "June 25, 2025",
+      readTime: "8 min read",
+      excerpt: "Configure Open Broadcaster Software (OBS) for lag-free gaming streams. Settings for YouTube, Twitch, and low-end PC configurations.",
+      category: "Guides",
+    },
   ];
 
   const jsonLd = {
