@@ -11,6 +11,8 @@ export const metadata = {
 export default function DiscordBanners() {
 
   const templates = [
+    { id: "discord-animated-cyber", name: "Animated Cyber Red (GIF)", category: "Animated", desc: "Seamless looping crimson pulse neon gaming cover for Discord Nitro", textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#fca5a5", textShadow: "0 0 10px #ef4444, 0 0 20px #991b1b, 2px 2px 0px #000000", letterSpacing: "0.1em" }, style: { background: "url('/discord_animated_cyber.gif') center/cover no-repeat" } },
+    { id: "discord-animated-frost", name: "Animated Frost Blue (GIF)", category: "Animated", desc: "Glacial cyan lighting flash loop optimized for Discord profile layouts", textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#ffffff", textShadow: "0 0 10px #06b6d4, 0 0 20px #0891b2", letterSpacing: "0.15em" }, style: { background: "url('/discord_animated_frost.gif') center/cover no-repeat" } },
     { id: "discord-cyber-red", name: "Cyber Red Mech", category: "Mech", desc: "Obsidian black grid with deep crimson neon flares and gothic text", textStyle: { fontFamily: "var(--font-gamertag)", fontStyle: "italic", color: "#fca5a5", textShadow: "0 0 10px #ef4444, 0 0 20px #991b1b, 2px 2px 0px #000000", letterSpacing: "0.1em" }, style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_cyber_red.jpg') center/cover no-repeat" } },
     { id: "discord-gold-tactical", name: "Gold Tactical Grid", category: "Military", desc: "Brushed carbon mesh with rich gold flares and heavy blocky text", textStyle: { fontFamily: "Impact, sans-serif", color: "#fef08a", textShadow: "3px 3px 0px #000, -1px -1px 0px #78350f, 0 0 15px #fbbf24", letterSpacing: "0.08em" }, style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_gold_tactical.jpg') center/cover no-repeat" } },
     { id: "discord-liquid-ice", name: "Liquid Ice", category: "Tactical", desc: "Slate steel background with ice-blue frost trails and glows", textStyle: { fontFamily: "var(--font-gamertag)", color: "#ffffff", textShadow: "0 0 8px #0ea5e9, 0 0 16px #0369a1, 3px 3px 0px #0f172a", letterSpacing: "0.15em" }, style: { background: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/discord_liquid_ice.jpg') center/cover no-repeat" } },
@@ -82,12 +84,14 @@ export default function DiscordBanners() {
           {templates.map((template, idx) => (
             <div key={idx} className="bento-card overflow-hidden rounded-xl shadow-lg border-outline-variant/50">
               <div className="aspect-video relative flex items-center justify-end font-gamertag uppercase p-lg overflow-hidden pr-[8%]" style={{ ...template.style, containerType: "inline-size" }}>
-                <div className="text-right flex flex-col items-end">
-                  <span className="font-black tracking-wide leading-none" style={{ ...template.textStyle, fontSize: "clamp(12px, 6.5cqw, 22px)" }}>YOUR COMMUNITY</span>
-                  <span className="tracking-widest text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded mt-xs font-sans normal-case font-bold leading-none" style={{ fontSize: "clamp(5px, 2.2cqw, 9px)" }}>
-                    Discord Server Active
-                  </span>
-                </div>
+                {template.category !== "Animated" && (
+                  <div className="text-right flex flex-col items-end">
+                    <span className="font-black tracking-wide leading-none" style={{ ...template.textStyle, fontSize: "clamp(12px, 6.5cqw, 22px)" }}>YOUR COMMUNITY</span>
+                    <span className="tracking-widest text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded mt-xs font-sans normal-case font-bold leading-none" style={{ fontSize: "clamp(5px, 2.2cqw, 9px)" }}>
+                      Discord Server Active
+                    </span>
+                  </div>
+                )}
               </div>
               <div className="p-lg bg-surface-container-high flex flex-col justify-between h-40">
                 <div>
@@ -97,12 +101,22 @@ export default function DiscordBanners() {
                   <p className="text-xs text-outline mt-1">{template.desc}</p>
                 </div>
 
-                <Link
-                  href={`/customize/${template.id}`}
-                  className="w-full bg-primary-container hover:bg-primary-container/90 text-on-primary-container text-center font-bold text-xs py-2.5 rounded transition-all block mt-md"
-                >
-                  Customize & Download
-                </Link>
+                {template.category === "Animated" ? (
+                  <a
+                    href={`/${template.id.replace("discord-animated-", "discord_animated_")}.gif`}
+                    download
+                    className="w-full bg-emerald-600 hover:bg-emerald-700 text-white text-center font-bold text-xs py-2.5 rounded transition-all block mt-md"
+                  >
+                    Download Animated GIF
+                  </a>
+                ) : (
+                  <Link
+                    href={`/customize/${template.id}`}
+                    className="w-full bg-primary-container hover:bg-primary-container/90 text-on-primary-container text-center font-bold text-xs py-2.5 rounded transition-all block mt-md"
+                  >
+                    Customize & Download
+                  </Link>
+                )}
               </div>
             </div>
           ))}
