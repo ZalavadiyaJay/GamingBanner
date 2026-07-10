@@ -2,6 +2,19 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+export async function generateStaticParams() {
+  return [
+    { id: "youtube-banner-size" },
+    { id: "twitch-banner-size" },
+    { id: "discord-banner-size" },
+    { id: "twitter-header-size" },
+    { id: "how-to-make-gaming-banner" },
+    { id: "upload-youtube-banner" },
+    { id: "gaming-fonts" },
+    { id: "gaming-color-palettes" }
+  ];
+}
+
 export async function generateMetadata({ params }) {
   const { id } = await params;
   const guidesContent = {

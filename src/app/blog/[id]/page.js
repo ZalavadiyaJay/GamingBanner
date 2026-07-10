@@ -2,6 +2,16 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+export async function generateStaticParams() {
+  return [
+    { id: "best-youtube-banner-ideas-2025" },
+    { id: "how-to-grow-your-gaming-channel" },
+    { id: "free-vs-paid-banner-makers" },
+    { id: "cool-gaming-names-generator-tips" },
+    { id: "best-obs-settings-for-streaming" }
+  ];
+}
+
 export async function generateMetadata({ params }) {
   const { id } = await params;
   const blogPostsContent = {
