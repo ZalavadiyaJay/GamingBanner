@@ -1,5 +1,7 @@
 import CustomizeClient from "./CustomizeClient";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return [
     { id: "esports" },
